@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+    display: flex;
+    background-color:rgb(33, 167, 140);
+    height: 90px;    
+    width: 100%;
+}
+h1{
+
+    position: relative;
+    float: left;
+    color: rgb(108, 105, 105);
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 2px 2px rgba(255, 251, 0, 0.749);
+}
+h2{
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+    text-shadow: 2px 2px rebeccapurple;
+}
+h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    color: red;
+
+}
+button{
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    padding: 15px;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+}
+.active:hover{
+    background-color:whitesmoke;
+    color: blue;
+}
